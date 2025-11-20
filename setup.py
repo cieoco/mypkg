@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'talker = mypkg.talker:main',
             'listener = mypkg.listener:main',
+            'arm_http_server = mypkg.arm_http_server:main',
         ],
     },
 )
